@@ -1,0 +1,44 @@
+.quoi {
+  margin-top: -60px;
+  height: 800px;
+  width: auto;
+  background-color: #343434;
+
+  .quoi img {
+    position: relative;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    margin-left: 50px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+  }
+}
+
+section #cepourquoi
+{
+  box-shadow: 5px 10px 50px 10px black;
+  height: 600px;
+  background-color: #a12828;
+  position: relative;
+
+  h3 {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    color: #f2d5b3;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  p {
+    padding-top: 70px;
+    font-size: 18px;
+    color: white;
+    width: 650px;
+    margin-left: 100px;
+    font-family: 'Arvo', serif;
+  }
+}

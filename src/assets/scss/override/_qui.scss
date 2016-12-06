@@ -1,0 +1,44 @@
+.qui {
+  height: 660px;
+  width: auto;
+  background-color: #343434;
+
+  .qui img {
+    position: relative;
+  }
+
+  h2 {
+    font-size: 80px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    margin-left: 50px;
+    margin-top: -250px;
+    margin-bottom: 50px;
+  }
+
+}
+
+section #quesako
+{
+  box-shadow: 5px 10px 50px 10px black;
+  height: 500px;
+  background-color: #343434;
+  position: relative;
+
+  h3 {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    color: #f2d5b3;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  p {
+    padding-top: 50px;
+    font-size: 18px;
+    color: white;
+    width: 650px;
+    margin-left: 100px;
+    font-family: 'Arvo', serif;
+  }
+}
