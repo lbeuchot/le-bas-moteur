@@ -42,3 +42,58 @@ section #quand-ou
     font-family: 'Arvo', serif;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .quand-et-ou {
+    height: 720px;
+
+    h2 {
+      font-size: 50px;
+      margin-top: -90px;
+    }
+
+  }
+
+  section #quand-ou
+  {
+    height: 500px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      padding-top: 40px;
+      margin-left: 50px;
+      width: 450px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quand-et-ou {
+    height: 700px;
+
+    h2 {
+      font-size: 40px;
+      margin-left: 50px;
+      margin-top: -80px;
+    }
+
+  }
+
+  section #quand-ou
+  {
+    height: 500px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      padding-top: 40px;
+      margin-left: 10px;
+      width: 350px;
+    }
+  }
+}

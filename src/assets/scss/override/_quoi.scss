@@ -42,3 +42,59 @@ section #cepourquoi
     font-family: 'Arvo', serif;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .quoi {
+    height: 900px;
+
+    h2 {
+      font-size: 60px;
+      margin-left: 50px;
+      margin-top: -120px;
+    }
+
+  }
+
+  section #cepourquoi
+  {
+    height: 700px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      padding-top: 40px;
+      margin-left: 50px;
+      width: 450px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quoi {
+    height: 1000px;
+
+    h2 {
+      font-size: 50px;
+      margin-left: 50px;
+      margin-top: -80px;
+    }
+
+  }
+
+  section #cepourquoi
+  {
+    height: 850px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      padding-top: 40px;
+      margin-left: 10px;
+      width: 350px;
+    }
+  }
+}

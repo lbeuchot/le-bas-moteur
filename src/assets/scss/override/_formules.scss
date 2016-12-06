@@ -1,6 +1,6 @@
 .formules {
   margin-top: -60px;
-  height: 1150px;
+  height: 1080px;
   width: auto;
   background-color: #343434;
 
@@ -21,7 +21,32 @@
 section #li-menu
 {
   box-shadow: 5px 10px 50px 10px black;
-  height: 930px;
+  height: auto;
   background-color: #343434;
   position: relative;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .formules {
+    height: 900px;
+
+    h2 {
+      font-size: 50px;
+      margin-top: -90px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .formules {
+    height: 570px;
+
+    h2 {
+      font-size: 40px;
+      margin-left: 50px;
+      margin-top: -80px;
+    }
+
+  }
 }
